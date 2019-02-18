@@ -1,6 +1,7 @@
 package iluo.containsNearbyAlmostDuplicate_star;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Yang Xing Luo on 2019/2/17.

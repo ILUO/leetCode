@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="convertToTitle&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iluo/containsNearbyAlmostDuplicate_star/Solution.java" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="containsNearbyAlmostDuplicate&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iluo/levelOrder/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iluo/util/Node.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iluo/containsNearbyAlmostDuplicate_star/Solution.java" afterPath="$PROJECT_DIR$/src/iluo/containsNearbyAlmostDuplicate_star/Solution.java" />
     </list>
     <ignored path="leetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +38,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iluo/containsNearbyAlmostDuplicate_star/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="448">
+              <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iluo/levelOrder/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iluo/util/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,6 +125,8 @@
         <option value="$PROJECT_DIR$/src/iluo/arrangeCoins/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/convertToTitle/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/containsNearbyAlmostDuplicate_star/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/util/Node.java" />
+        <option value="$PROJECT_DIR$/src/iluo/levelOrder/Solution.java" />
       </list>
     </option>
   </component>
@@ -184,6 +212,28 @@
               <option name="myItemId" value="iluo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iluo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -203,7 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="containsNearbyAlmostDuplicate_star" />
+              <option name="myItemId" value="levelOrder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -761,7 +811,7 @@
       <workItem from="1549939316862" duration="3789000" />
       <workItem from="1550107834709" duration="1817000" />
       <workItem from="1550234797718" duration="143000" />
-      <workItem from="1550369244771" duration="5040000" />
+      <workItem from="1550369244771" duration="7833000" />
     </task>
     <task id="LOCAL-00001" summary="minSubArrayLen">
       <created>1549073840524</created>
@@ -854,11 +904,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550230070066</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="containsNearbyAlmostDuplicate&#10;">
+      <created>1550382120061</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1550382120061</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58168000" />
+    <option name="totallyTimeSpent" value="60961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -910,7 +967,8 @@
     <MESSAGE value="getPermutation&#10;" />
     <MESSAGE value="arrangeCoins&#10;" />
     <MESSAGE value="convertToTitle&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="convertToTitle&#10;" />
+    <MESSAGE value="containsNearbyAlmostDuplicate&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="containsNearbyAlmostDuplicate&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1169,9 +1227,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/containsNearbyAlmostDuplicate_star/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="48" />
+        <state relative-caret-position="448">
+          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/util/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/levelOrder/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
