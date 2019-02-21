@@ -5,33 +5,30 @@ package iluo.findUnsortedSubarray_star;
  */
 public class Solution {
     public int findUnsortedSubarray(int[] nums) {
-        int i = 0;
-        int j = nums.length - 1;
-        for(int countRepeat = 0;i < nums.length - 2;i++){
-            if(nums[i] == nums[i+1]){
-                countRepeat++;
-                continue;
-            }else if(nums[i] < nums[i+1]){
-                countRepeat = 0;
-            }else{
-                i -= countRepeat;
-                break;
+        int length = nums.length;
+        int min = nums[length - 1];
+        int start = -1;
+        for(int i = nums.length - 1;i >= 0;i--){
+            if(nums[i] > min){
+                start = i;
+            }else {
+                min = nums[i];
             }
         }
-        for(int countRepeat = 0;j > 0;j--){
-            if(nums[j] == nums[j-1]){
-                countRepeat++;
-                continue;
-            }else if(nums[j - 1] < nums[j]){
-                countRepeat = 0;
+
+        if(start == -1) return 0;
+
+        int max = nums[0];
+        int end = 0;
+        for(int i = 0;i <= nums.length - 1;i++){
+            if(nums[i] < max){
+                end = i;
             }else{
-                j += countRepeat;
-                break;
+                max = nums[i];
             }
         }
-        int result = j - i;
-        if(result <= 0) return 0;
-        else return result+1;
+        return end - start + 1;
+
     }
 
     public static void main(String[] args){
