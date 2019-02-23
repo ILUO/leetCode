@@ -1,4 +1,4 @@
-package iluo.checkValidString;
+package iluo.checkValidString_star;
 
 import java.util.Stack;
 
