@@ -16,7 +16,6 @@ public class Solution {
                 }else{
                     count[left][right] = count[left][right-1] + count[left+1][right] - count[left+1][right-1];
                 }
-
             }
         }
         return count[0][length-1];
