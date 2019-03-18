@@ -2,46 +2,40 @@ package iluo.sortList_star;
 
 import iluo.util.ListNode;
 
+import java.util.List;
+
 /**
  * Created by Yang Xing Luo on 2019/3/18.
  */
 public class Solution1 {
     public ListNode sortList(ListNode head) {
-        ListNode tail = head;
-        for(;tail.next != null;tail = tail.next);
-        merSort(head,tail);
+        if(head == null) return null;
+        head = merSort(head);
         return head;
     }
 
-    private ListNode getMidNode(ListNode head,ListNode quickHead,ListNode tail){
-        for(;quickHead != tail;){
+    private ListNode getMidNode(ListNode head,ListNode quickHead){
+        for(;quickHead != null;){
             quickHead = quickHead.next;
-            if(quickHead != tail){
+            if(quickHead != null){
                 quickHead = quickHead.next;
-                head = head.next;
+                if(quickHead != null){
+                    head = head.next;
+                }
+
             }
         }
         return head;
     }
 
-
-
-    private void merSort(ListNode head,ListNode tail){
-        ListNode midNode = getMidNode(head,head,tail);
-        if(head == midNode){
-            if(head.next == tail){
-                if(head.val > midNode.val){
-                    int temp = midNode.val;
-                    midNode.val = head.val;
-                    head.val = temp;
-                }
-            }
-            return;
-        }else{
-            merSort(head,midNode);
-            merSort(midNode.next,tail);
-            mergeList(head,midNode.next);
-        }
+    private ListNode merSort(ListNode head){
+        if(head.next == null) return head;
+        ListNode midNode = getMidNode(head,head);
+        ListNode newStart = midNode.next;
+        midNode.next = null;
+        head = merSort(head);
+        newStart = merSort(newStart);
+        return mergeList(head,newStart);
     }
 
 
@@ -77,14 +71,14 @@ public class Solution1 {
         Solution1 solution = new Solution1();
         int[] a = {4,2,1,3};
         ListNode toolNode = new ListNode(0);
-        ListNode tempNode = new ListNode(0);
+        ListNode tempNode = new ListNode(4);
         toolNode.next = tempNode;
-        for(int i = 0;i < a.length;i++){
+        for(int i = 1;i < a.length;i++){
             ListNode node = new ListNode(a[i]);
             tempNode.next = node;
             tempNode = tempNode.next;
         }
-        solution.sortList(toolNode.next);
-        System.out.println(toolNode.next.val);
+        ListNode result = solution.sortList(toolNode.next);
+        System.out.println(result.val);
     }
 }
