@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="isUgly">
-      <change afterPath="$PROJECT_DIR$/src/iluo/shortestCompletingWord/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="shortestCompletingWord">
+      <change afterPath="$PROJECT_DIR$/src/iluo/sortList/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -24,10 +24,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/shortestCompletingWord/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/sortList/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/iluo/util/ListNode.java" />
         <option value="$PROJECT_DIR$/src/iluo/isUgly/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/shortestCompletingWord/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/sortList/Solution.java" />
       </list>
     </option>
   </component>
@@ -144,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552450997216" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552876732914" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -545,7 +549,8 @@
       <workItem from="1552186098395" duration="5036000" />
       <workItem from="1552270171684" duration="1254000" />
       <workItem from="1552353650125" duration="1851000" />
-      <workItem from="1552441003133" duration="5947000" />
+      <workItem from="1552441003133" duration="6627000" />
+      <workItem from="1552875491431" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="minSubArrayLen">
       <created>1549073840524</created>
@@ -785,17 +790,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552355201948</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="shortestCompletingWord">
+      <created>1552451003937</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1552451003938</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127635000" />
+    <option name="totallyTimeSpent" value="129356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21883656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22160664" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -805,7 +817,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.26918918" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" visible="true" weight="0.35567567" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.35567567" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -839,7 +851,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minSubArrayLen" />
     <MESSAGE value="addTwoNumbers" />
     <MESSAGE value="minMoves&#10;" />
     <MESSAGE value="minMoves1&#10;" />
@@ -864,7 +875,8 @@
     <MESSAGE value="intersection" />
     <MESSAGE value="MyQueue" />
     <MESSAGE value="isUgly" />
-    <option name="LAST_COMMIT_MESSAGE" value="isUgly" />
+    <MESSAGE value="shortestCompletingWord" />
+    <option name="LAST_COMMIT_MESSAGE" value="shortestCompletingWord" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -874,12 +886,6 @@
           <line>67</line>
           <properties />
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/iluo/shortestCompletingWord/Solution.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1204,8 +1210,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/shortestCompletingWord/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="306">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/sortList/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
