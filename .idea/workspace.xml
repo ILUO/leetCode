@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="sortList">
-      <change afterPath="$PROJECT_DIR$/src/iluo/islandPerimeter/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="islandPerimeter">
+      <change afterPath="$PROJECT_DIR$/src/iluo/maxDistToClosest/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -24,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/islandPerimeter/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/maxDistToClosest/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="459">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -52,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iluo/minSubArrayLen/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/selfDividingNumbers/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/addTwoNumbersII/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/util/TreeNode.java" />
@@ -103,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/iluo/sortList/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/sortList_star/Solution1.java" />
         <option value="$PROJECT_DIR$/src/iluo/islandPerimeter/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/maxDistToClosest/Solution.java" />
       </list>
     </option>
   </component>
@@ -146,7 +146,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552959338043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553056989300" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -165,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -260,13 +260,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.intersection.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.maxDistToClosest.Solution" />
       <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.intersection.*" />
+          <option name="PATTERN" value="iluo.maxDistToClosest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -495,19 +495,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +555,8 @@
       <workItem from="1552875491431" duration="1041000" />
       <workItem from="1552896934768" duration="3495000" />
       <workItem from="1552907069561" duration="5007000" />
-      <workItem from="1552958768438" duration="549000" />
+      <workItem from="1552958768438" duration="3108000" />
+      <workItem from="1553052511170" duration="1932000" />
     </task>
     <task id="LOCAL-00001" summary="minSubArrayLen">
       <created>1549073840524</created>
@@ -816,16 +817,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552911463034</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="islandPerimeter">
+      <created>1552959345274</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1552959345274</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138407000" />
+    <option name="totallyTimeSpent" value="142898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20387812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20609418" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -835,7 +844,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.16540541" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -869,7 +878,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minMoves1&#10;" />
     <MESSAGE value="getPermutation&#10;" />
     <MESSAGE value="arrangeCoins&#10;" />
     <MESSAGE value="convertToTitle&#10;" />
@@ -894,7 +902,8 @@
     <MESSAGE value="shortestCompletingWord" />
     <MESSAGE value="sortList1" />
     <MESSAGE value="sortList" />
-    <option name="LAST_COMMIT_MESSAGE" value="sortList" />
+    <MESSAGE value="islandPerimeter" />
+    <option name="LAST_COMMIT_MESSAGE" value="islandPerimeter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,7 +922,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iluo/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/checkPossibility/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1118,8 +1126,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/islandPerimeter/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="408">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/maxDistToClosest/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
