@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="islandPerimeter">
-      <change afterPath="$PROJECT_DIR$/src/iluo/maxDistToClosest/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="maxDistToClosest">
+      <change afterPath="$PROJECT_DIR$/src/iluo/numSubarrayProductLessThanK_star/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -24,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/maxDistToClosest/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/numSubarrayProductLessThanK_star/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -52,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iluo/selfDividingNumbers/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/addTwoNumbersII/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/util/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/iluo/minMoves/Solution.java" />
@@ -103,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/iluo/sortList_star/Solution1.java" />
         <option value="$PROJECT_DIR$/src/iluo/islandPerimeter/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/maxDistToClosest/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/numSubarrayProductLessThanK_star/Solution.java" />
       </list>
     </option>
   </component>
@@ -117,8 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,7 +146,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553056989300" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553180765431" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -165,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -274,13 +274,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.shortestCompletingWord.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.numSubarrayProductLessThanK_star.Solution" />
       <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.shortestCompletingWord.*" />
+          <option name="PATTERN" value="iluo.numSubarrayProductLessThanK_star.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -495,19 +495,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +556,8 @@
       <workItem from="1552896934768" duration="3495000" />
       <workItem from="1552907069561" duration="5007000" />
       <workItem from="1552958768438" duration="3108000" />
-      <workItem from="1553052511170" duration="1932000" />
+      <workItem from="1553052511170" duration="3307000" />
+      <workItem from="1553153151910" duration="1648000" />
     </task>
     <task id="LOCAL-00001" summary="minSubArrayLen">
       <created>1549073840524</created>
@@ -824,17 +825,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552959345274</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="maxDistToClosest">
+      <created>1553057000400</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1553057000400</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142898000" />
+    <option name="totallyTimeSpent" value="145921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20609418" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20831025" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -844,7 +852,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35675675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -878,7 +886,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getPermutation&#10;" />
     <MESSAGE value="arrangeCoins&#10;" />
     <MESSAGE value="convertToTitle&#10;" />
     <MESSAGE value="containsNearbyAlmostDuplicate&#10;" />
@@ -903,7 +910,8 @@
     <MESSAGE value="sortList1" />
     <MESSAGE value="sortList" />
     <MESSAGE value="islandPerimeter" />
-    <option name="LAST_COMMIT_MESSAGE" value="islandPerimeter" />
+    <MESSAGE value="maxDistToClosest" />
+    <option name="LAST_COMMIT_MESSAGE" value="maxDistToClosest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,13 +930,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iluo/checkPossibility/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/minSubArrayLen/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1133,8 +1134,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/maxDistToClosest/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/numSubarrayProductLessThanK_star/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
