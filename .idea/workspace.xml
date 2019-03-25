@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="numSubarrayProductLessThanK">
-      <change afterPath="$PROJECT_DIR$/src/iluo/numberOfBoomerangs/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="numberOfBoomerangs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -26,11 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/iluo/numberOfBoomerangs/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -149,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553219771835" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553527853122" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -561,7 +557,7 @@
       <workItem from="1552958768438" duration="3108000" />
       <workItem from="1553052511170" duration="3307000" />
       <workItem from="1553153151910" duration="2281000" />
-      <workItem from="1553218282709" duration="1277000" />
+      <workItem from="1553218282709" duration="2232000" />
     </task>
     <task id="LOCAL-00001" summary="minSubArrayLen">
       <created>1549073840524</created>
@@ -843,15 +839,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553180773341</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="numberOfBoomerangs">
+      <created>1553219779052</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1553219779052</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147831000" />
+    <option name="totallyTimeSpent" value="148786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21052632" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -862,8 +864,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13837838" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13837838" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35783783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -897,7 +899,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="convertToTitle&#10;" />
     <MESSAGE value="containsNearbyAlmostDuplicate&#10;" />
     <MESSAGE value="levelOrder" />
     <MESSAGE value="isLongPressedName" />
@@ -922,7 +923,8 @@
     <MESSAGE value="islandPerimeter" />
     <MESSAGE value="maxDistToClosest" />
     <MESSAGE value="numSubarrayProductLessThanK" />
-    <option name="LAST_COMMIT_MESSAGE" value="numSubarrayProductLessThanK" />
+    <MESSAGE value="numberOfBoomerangs" />
+    <option name="LAST_COMMIT_MESSAGE" value="numberOfBoomerangs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1152,11 +1154,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/numberOfBoomerangs/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
