@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="prisonAfterNDays">
-      <change afterPath="$PROJECT_DIR$/src/iluo/multiply_star/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="multiply">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/iluo/numberOfBoomerangs/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/iluo/numberOfBoomerangs/Solution.class" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/iluo/multiply_star/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="9" column="112" lean-forward="true" selection-start-line="9" selection-start-column="112" selection-end-line="9" selection-end-column="112" />
             </state>
           </provider>
         </entry>
@@ -174,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553653111281" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553736307549" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -589,7 +587,7 @@
       <workItem from="1553218282709" duration="2232000" />
       <workItem from="1553527667197" duration="2092000" />
       <workItem from="1553612635208" duration="1043000" />
-      <workItem from="1553652052174" duration="939000" />
+      <workItem from="1553652052174" duration="1822000" />
     </task>
     <task id="LOCAL-00001" summary="minSubArrayLen">
       <created>1549073840524</created>
@@ -920,15 +918,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553613066605</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="multiply">
+      <created>1553653116835</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1553653116835</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152860000" />
+    <option name="totallyTimeSpent" value="153743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21883656" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -940,7 +944,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.13837838" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35783783" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48540542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -974,7 +978,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="findUnsortedSubarray" />
     <MESSAGE value="checkValidString" />
     <MESSAGE value="checkValidString1" />
     <MESSAGE value="countPalindromicSubsequences" />
@@ -999,7 +1002,8 @@
     <MESSAGE value="maxProfit" />
     <MESSAGE value="maxProfit1" />
     <MESSAGE value="prisonAfterNDays" />
-    <option name="LAST_COMMIT_MESSAGE" value="prisonAfterNDays" />
+    <MESSAGE value="multiply" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiply" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,12 +1013,6 @@
           <line>67</line>
           <properties />
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/iluo/multiply_star/Solution.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1235,8 +1233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/multiply_star/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="9" column="112" lean-forward="true" selection-start-line="9" selection-start-column="112" selection-end-line="9" selection-end-column="112" />
         </state>
       </provider>
     </entry>
