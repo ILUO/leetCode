@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="sortedListToBST">
-      <change afterPath="$PROJECT_DIR$/src/iluo/wordBreak/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="wordBreak_star">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -24,7 +23,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/wordBreak/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/wordBreak_star/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
@@ -55,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iluo/convertToTitle/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/containsNearbyAlmostDuplicate_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/util/Node.java" />
         <option value="$PROJECT_DIR$/src/iluo/levelOrder/Solution.java" />
@@ -106,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/iluo/sortedListToBST/Solution1.java" />
         <option value="$PROJECT_DIR$/src/iluo/sortedListToBST_star/Solution1.java" />
         <option value="$PROJECT_DIR$/src/iluo/wordBreak/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/wordBreak_star/Solution.java" />
       </list>
     </option>
   </component>
@@ -149,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554002742199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554085958396" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -168,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -502,11 +501,9 @@
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
@@ -568,14 +565,7 @@
       <workItem from="1553736256389" duration="607000" />
       <workItem from="1553829425379" duration="1279000" />
       <workItem from="1553912319347" duration="2561000" />
-      <workItem from="1554000328504" duration="2228000" />
-    </task>
-    <task id="LOCAL-00003" summary="minMoves&#10;">
-      <created>1549289025661</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1549289025661</updated>
+      <workItem from="1554000328504" duration="4267000" />
     </task>
     <task id="LOCAL-00004" summary="minMoves1&#10;">
       <created>1549352665650</created>
@@ -913,15 +903,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553915399549</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="wordBreak_star">
+      <created>1554002754806</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1554002754808</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160418000" />
+    <option name="totallyTimeSpent" value="162457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2299169" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -932,8 +928,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13837838" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.13837838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13837838" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -967,7 +963,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hasGroupsSizeX" />
     <MESSAGE value="hammingDistance" />
     <MESSAGE value="reverse" />
     <MESSAGE value="fib" />
@@ -992,7 +987,8 @@
     <MESSAGE value="diameterOfBinaryTree" />
     <MESSAGE value="leafSimilar" />
     <MESSAGE value="sortedListToBST" />
-    <option name="LAST_COMMIT_MESSAGE" value="sortedListToBST" />
+    <MESSAGE value="wordBreak_star" />
+    <option name="LAST_COMMIT_MESSAGE" value="wordBreak_star" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1002,12 +998,6 @@
           <line>67</line>
           <properties />
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/iluo/wordBreak/Solution.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1235,7 +1225,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/wordBreak/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/iluo/wordBreak_star/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
