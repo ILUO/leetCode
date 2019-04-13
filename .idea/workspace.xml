@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="singleNumber">
-      <change afterPath="$PROJECT_DIR$/src/iluo/longestPalindrome/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="longestPalindrome">
+      <change afterPath="$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -24,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -52,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iluo/findUnsortedSubarray/Solution.java" />
-        <option value="$PROJECT_DIR$/src/iluo/findUnsortedSubarray_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/checkValidString/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/checkValidString_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/checkValidString_star/Solution1.java" />
@@ -103,6 +101,8 @@
         <option value="$PROJECT_DIR$/src/iluo/isValid/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/singleNumber/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/longestPalindrome/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution1.java" />
       </list>
     </option>
   </component>
@@ -117,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,17 +135,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iluo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iluo" type="462c0819:PsiDirectoryNode" />
+              <item name="longestPalindrome_star" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555006021212" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555123139414" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -165,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution1">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -309,6 +316,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="iluo.sortedListToBST_star.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.longestPalindrome_star.Solution1" />
+      <module name="leetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iluo.longestPalindrome_star.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -513,15 +534,15 @@
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution1" />
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -584,14 +605,8 @@
       <workItem from="1554203523600" duration="781000" />
       <workItem from="1554258557199" duration="2552000" />
       <workItem from="1554360073570" duration="658000" />
-      <workItem from="1555003579824" duration="2159000" />
-    </task>
-    <task id="LOCAL-00008" summary="getPermutation&#10;">
-      <created>1549679527323</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1549679527323</updated>
+      <workItem from="1555003579824" duration="2419000" />
+      <workItem from="1555121356147" duration="1612000" />
     </task>
     <task id="LOCAL-00009" summary="getPermutation&#10;">
       <created>1549854732114</created>
@@ -929,17 +944,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554360115490</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="longestPalindrome">
+      <created>1555006029291</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1555006029292</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168815000" />
+    <option name="totallyTimeSpent" value="170687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2437673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2465374" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -949,7 +971,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.15783784" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36216217" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19135135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -983,7 +1005,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="binaryGap" />
     <MESSAGE value="toHex" />
     <MESSAGE value="deleteDuplicates" />
     <MESSAGE value="intersection" />
@@ -1008,7 +1029,8 @@
     <MESSAGE value="convertToBase7" />
     <MESSAGE value="isValid" />
     <MESSAGE value="singleNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="singleNumber" />
+    <MESSAGE value="longestPalindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="longestPalindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1027,13 +1049,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iluo/levelOrder/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/isLongPressedName/Solution2.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/isLongPressedName/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1254,10 +1269,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
