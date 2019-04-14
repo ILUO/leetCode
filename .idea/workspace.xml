@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="longestPalindrome">
-      <change afterPath="$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution1.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="longestPalindrome_O(n)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="612">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -117,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,13 +147,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555123139414" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555209679940" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -606,14 +605,8 @@
       <workItem from="1554258557199" duration="2552000" />
       <workItem from="1554360073570" duration="658000" />
       <workItem from="1555003579824" duration="2419000" />
-      <workItem from="1555121356147" duration="1612000" />
-    </task>
-    <task id="LOCAL-00009" summary="getPermutation&#10;">
-      <created>1549854732114</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1549854732114</updated>
+      <workItem from="1555121356147" duration="2411000" />
+      <workItem from="1555208597485" duration="606000" />
     </task>
     <task id="LOCAL-00010" summary="getPermutation&#10;">
       <created>1550067143247</created>
@@ -951,17 +944,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555006029292</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="longestPalindrome_O(n)">
+      <created>1555123152551</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1555123152552</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170687000" />
+    <option name="totallyTimeSpent" value="172092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2465374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24930748" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -971,7 +971,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.15783784" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19135135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.19135135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1005,7 +1005,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="toHex" />
     <MESSAGE value="deleteDuplicates" />
     <MESSAGE value="intersection" />
     <MESSAGE value="MyQueue" />
@@ -1030,7 +1029,8 @@
     <MESSAGE value="isValid" />
     <MESSAGE value="singleNumber" />
     <MESSAGE value="longestPalindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="longestPalindrome" />
+    <MESSAGE value="longestPalindrome_O(n)" />
+    <option name="LAST_COMMIT_MESSAGE" value="longestPalindrome_O(n)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1278,8 +1278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
