@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="detectCycle">
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="moveZeros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -21,17 +21,7 @@
     <favorites_list name="leetCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/detectCycle_star/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,7 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iluo/arrangeCoins/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/findTheDifference/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/countPalindromicSubsequences_star/Solution2.java" />
         <option value="$PROJECT_DIR$/src/iluo/countPalindromicSubsequences_star/Solution.java" />
@@ -102,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution2.java" />
         <option value="$PROJECT_DIR$/src/iluo/hasCycle/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/detectCycle_star/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/moveZeroes/Solution.java" />
       </list>
     </option>
   </component>
@@ -116,7 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,13 +136,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555478278083" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555565895369" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -608,13 +598,7 @@
       <workItem from="1555121356147" duration="2411000" />
       <workItem from="1555208597485" duration="3217000" />
       <workItem from="1555302481837" duration="2100000" />
-    </task>
-    <task id="LOCAL-00013" summary="convertToTitle&#10;">
-      <created>1550230070066</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1550230070066</updated>
+      <workItem from="1555478245157" duration="1381000" />
     </task>
     <task id="LOCAL-00014" summary="containsNearbyAlmostDuplicate&#10;">
       <created>1550382120061</created>
@@ -952,16 +936,23 @@
       <option name="project" value="LOCAL" />
       <updated>1555305859115</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="moveZeros">
+      <created>1555478288129</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1555478288130</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176803000" />
+    <option name="totallyTimeSpent" value="178184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25207755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25540167" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1005,7 +996,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="isUgly" />
     <MESSAGE value="shortestCompletingWord" />
     <MESSAGE value="sortList1" />
     <MESSAGE value="sortList" />
@@ -1030,7 +1020,8 @@
     <MESSAGE value="longestPalindrome_center" />
     <MESSAGE value="hasCycle" />
     <MESSAGE value="detectCycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="detectCycle" />
+    <MESSAGE value="moveZeros" />
+    <option name="LAST_COMMIT_MESSAGE" value="moveZeros" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1049,7 +1040,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iluo/checkValidString_star/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/checkValidString_star/Solution1.java" />
     <entry file="jar:///usr/local/programFiles/jdk1.8.0_191/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/findTheDifference/Solution.java" />
@@ -1307,7 +1297,14 @@
     <entry file="file://$PROJECT_DIR$/src/iluo/detectCycle_star/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/moveZeroes/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
