@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="moveZeros">
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="removeNthFromEnd">
+      <change afterPath="$PROJECT_DIR$/src/iluo/threeSum_star/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/threeSum_star/Solution1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -21,7 +23,32 @@
     <favorites_list name="leetCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iluo/threeSum_star/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="61" selection-start-line="61" selection-end-line="65" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iluo/threeSum_star/Solution1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,9 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iluo/findTheDifference/Solution.java" />
-        <option value="$PROJECT_DIR$/src/iluo/countPalindromicSubsequences_star/Solution2.java" />
-        <option value="$PROJECT_DIR$/src/iluo/countPalindromicSubsequences_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/hasGroupsSizeX/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/hasGroupsSizeX_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/hammingDistance/Solution.java" />
@@ -58,7 +82,6 @@
         <option value="$PROJECT_DIR$/src/iluo/toHex/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/toHex_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/deleteDuplicates/Solution.java" />
-        <option value="$PROJECT_DIR$/src/iluo/intersection/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/MyQueue/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/iluo/util/ListNode.java" />
         <option value="$PROJECT_DIR$/src/iluo/isUgly/Solution.java" />
@@ -92,6 +115,10 @@
         <option value="$PROJECT_DIR$/src/iluo/hasCycle/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/detectCycle_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/moveZeroes/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/removeNthFromEnd/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/intersection/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/threeSum_star/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/threeSum_star/Solution1.java" />
       </list>
     </option>
   </component>
@@ -107,6 +134,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,19 +158,18 @@
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iluo" type="462c0819:PsiDirectoryNode" />
-              <item name="detectCycle_star" type="462c0819:PsiDirectoryNode" />
+              <item name="threeSum_star" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555565895369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555850009616" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -161,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution1">
+  <component name="RunManager" selected="Application.Solution1 (1)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -270,6 +297,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.threeSum_star.Solution" />
+      <module name="leetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iluo.threeSum_star.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iluo.prisonAfterNDays.Solution" />
       <module name="leetCode" />
@@ -284,36 +325,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.multiply_star.Solution" />
-      <module name="leetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iluo.multiply_star.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.sortedListToBST_star.Solution" />
-      <module name="leetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iluo.sortedListToBST_star.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.longestPalindrome_star.Solution1" />
+      <option name="MAIN_CLASS_NAME" value="iluo.longestPalindrome_star.Solution" />
       <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -326,8 +339,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.longestPalindrome_star.Solution" />
+    <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.threeSum_star.Solution1" />
+      <module name="leetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iluo.threeSum_star.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.longestPalindrome_star.Solution1" />
       <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -519,19 +546,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution1" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution1 (1)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -598,14 +626,9 @@
       <workItem from="1555121356147" duration="2411000" />
       <workItem from="1555208597485" duration="3217000" />
       <workItem from="1555302481837" duration="2100000" />
-      <workItem from="1555478245157" duration="1381000" />
-    </task>
-    <task id="LOCAL-00014" summary="containsNearbyAlmostDuplicate&#10;">
-      <created>1550382120061</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1550382120061</updated>
+      <workItem from="1555478245157" duration="1472000" />
+      <workItem from="1555640723427" duration="5434000" />
+      <workItem from="1555848195378" duration="616000" />
     </task>
     <task id="LOCAL-00015" summary="levelOrder">
       <created>1550456540719</created>
@@ -943,17 +966,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555478288130</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="removeNthFromEnd">
+      <created>1555565902823</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1555565902823</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178184000" />
+    <option name="totallyTimeSpent" value="184325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25540167" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26204985" />
+      <window_info id="Structure" order="1" weight="0.2498615" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Palette&#9;" order="4" />
@@ -962,7 +992,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.15783784" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19135135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39243242" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -996,7 +1026,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shortestCompletingWord" />
     <MESSAGE value="sortList1" />
     <MESSAGE value="sortList" />
     <MESSAGE value="islandPerimeter" />
@@ -1021,7 +1050,8 @@
     <MESSAGE value="hasCycle" />
     <MESSAGE value="detectCycle" />
     <MESSAGE value="moveZeros" />
-    <option name="LAST_COMMIT_MESSAGE" value="moveZeros" />
+    <MESSAGE value="removeNthFromEnd" />
+    <option name="LAST_COMMIT_MESSAGE" value="removeNthFromEnd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1040,9 +1070,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iluo/checkValidString_star/Solution1.java" />
-    <entry file="jar:///usr/local/programFiles/jdk1.8.0_191/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/iluo/findTheDifference/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/arrangeCoins/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1070,13 +1097,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/MyQueue/MyQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/isUgly/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/iluo/intersection/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/shortestCompletingWord/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/sortList/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/sortList_star/Solution1.java">
@@ -1227,24 +1247,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -1305,6 +1311,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/removeNthFromEnd/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/longestPalindrome_star/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/intersection/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/threeSum_star/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="61" selection-start-line="61" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/threeSum_star/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
