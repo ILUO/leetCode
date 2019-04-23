@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="findDisappearedNumbers">
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="mergeTrees">
+      <change afterPath="$PROJECT_DIR$/src/iluo/findAnagrams/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -23,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/findDisappearedNumbers/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/findAnagrams/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="209">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iluo/hasGroupsSizeX_star/Solution.java" />
-        <option value="$PROJECT_DIR$/src/iluo/hammingDistance/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/reverse/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/fib/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/accountsMerge_star/Solution.java" />
@@ -105,13 +104,15 @@
         <option value="$PROJECT_DIR$/src/iluo/threeSum_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/threeSum_star/Solution1.java" />
         <option value="$PROJECT_DIR$/src/iluo/findDisappearedNumbers/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/mergeTrees/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/findAnagrams/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="993" />
-    <option name="y" value="114" />
-    <option name="width" value="917" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="907" />
     <option name="height" value="789" />
   </component>
   <component name="ProjectView">
@@ -119,8 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,12 +149,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555949527109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556024823488" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -174,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution1 (1)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -269,20 +270,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.isValid.Solution" />
-      <module name="leetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iluo.isValid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iluo.threeSum_star.Solution" />
       <module name="leetCode" />
@@ -312,12 +299,12 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.longestPalindrome_star.Solution" />
+      <option name="MAIN_CLASS_NAME" value="iluo.findAnagrams_star.Solution" />
       <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.longestPalindrome_star.*" />
+          <option name="PATTERN" value="iluo.findAnagrams_star.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -532,20 +519,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution1 (1)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution1 (1)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -615,13 +601,8 @@
       <workItem from="1555478245157" duration="1472000" />
       <workItem from="1555640723427" duration="5434000" />
       <workItem from="1555848195378" duration="1797000" />
-    </task>
-    <task id="LOCAL-00016" summary="isLongPressedName">
-      <created>1550551332303</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1550551332303</updated>
+      <workItem from="1555949485169" duration="73000" />
+      <workItem from="1556022300239" duration="2353000" />
     </task>
     <task id="LOCAL-00017" summary="findUnsortedSubarray">
       <created>1550671650908</created>
@@ -959,16 +940,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555850016922</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="mergeTrees">
+      <created>1555949532336</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1555949532337</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185506000" />
+    <option name="totallyTimeSpent" value="187932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26204985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26869807" />
       <window_info id="Structure" order="1" weight="0.2498615" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -978,7 +967,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.15783784" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39243242" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.14810811" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1012,7 +1001,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sortList" />
     <MESSAGE value="islandPerimeter" />
     <MESSAGE value="maxDistToClosest" />
     <MESSAGE value="numSubarrayProductLessThanK" />
@@ -1037,7 +1025,8 @@
     <MESSAGE value="moveZeros" />
     <MESSAGE value="removeNthFromEnd" />
     <MESSAGE value="findDisappearedNumbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="findDisappearedNumbers" />
+    <MESSAGE value="mergeTrees" />
+    <option name="LAST_COMMIT_MESSAGE" value="mergeTrees" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1056,9 +1045,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iluo/countPalindromicSubsequences_star/Solution2.java" />
-    <entry file="file://$PROJECT_DIR$/src/iluo/countPalindromicSubsequences_star/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/iluo/hasGroupsSizeX_star/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/hammingDistance/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/reverse/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/fib/Solution.java" />
@@ -1344,7 +1330,31 @@
     <entry file="file://$PROJECT_DIR$/src/iluo/findDisappearedNumbers/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/mergeTrees/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/programFiles/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="2065" column="18" selection-start-line="2065" selection-start-column="18" selection-end-line="2065" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/findAnagrams/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
