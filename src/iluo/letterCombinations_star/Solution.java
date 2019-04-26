@@ -1,4 +1,4 @@
-package iluo.letterCombinations;
+package iluo.letterCombinations_star;
 
 import java.util.ArrayList;
 import java.util.HashMap;
