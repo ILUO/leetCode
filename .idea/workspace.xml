@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="generateParenthesis">
-      <change afterPath="$PROJECT_DIR$/src/iluo/isMatch/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="isMatch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/iluo/isMatch/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="204">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -152,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556346551052" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556419049459" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -308,6 +307,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.wordBreak_star.Solution" />
+      <module name="leetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iluo.wordBreak_star.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iluo.threeSum_star.Solution1" />
       <module name="leetCode" />
@@ -329,20 +342,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="iluo.longestPalindrome_star.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.wordBreak_star.Solution" />
-      <module name="leetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iluo.wordBreak_star.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -515,6 +514,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution (2)" />
@@ -601,14 +601,7 @@
       <workItem from="1556022300239" duration="3209000" />
       <workItem from="1556076008418" duration="2231000" />
       <workItem from="1556243156071" duration="665000" />
-      <workItem from="1556334376797" duration="10413000" />
-    </task>
-    <task id="LOCAL-00020" summary="checkValidString1">
-      <created>1550921800218</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1550921800218</updated>
+      <workItem from="1556334376797" duration="10554000" />
     </task>
     <task id="LOCAL-00021" summary="checkValidString1">
       <created>1550974159452</created>
@@ -946,15 +939,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556243205418</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="isMatch">
+      <created>1556346556396</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1556346556397</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202097000" />
+    <option name="totallyTimeSpent" value="202238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27867037" />
       <window_info id="Structure" order="1" weight="0.2498615" />
@@ -965,7 +964,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36432433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36432433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3318919" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1001,7 +1000,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="numberOfBoomerangs" />
     <MESSAGE value="maxProfit" />
     <MESSAGE value="maxProfit1" />
     <MESSAGE value="prisonAfterNDays" />
@@ -1026,7 +1024,8 @@
     <MESSAGE value="findAnagrams" />
     <MESSAGE value="letterCombinations" />
     <MESSAGE value="generateParenthesis" />
-    <option name="LAST_COMMIT_MESSAGE" value="generateParenthesis" />
+    <MESSAGE value="isMatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="isMatch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1380,8 +1379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/isMatch/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
