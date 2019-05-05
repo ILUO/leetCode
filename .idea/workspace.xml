@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="nextPermutation">
-      <change afterPath="$PROJECT_DIR$/src/iluo/longestValidParentheses/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="longestValidParentheses">
+      <change afterPath="$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iluo/longestValidParentheses/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution.java" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +29,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/longestValidParentheses/Solution.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="34">
+              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iluo/generateParenthesis_star/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iluo/deleteDuplicates/Solution.java" />
-        <option value="$PROJECT_DIR$/src/iluo/MyQueue/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/iluo/util/ListNode.java" />
         <option value="$PROJECT_DIR$/src/iluo/isUgly/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/shortestCompletingWord/Solution.java" />
@@ -109,6 +129,8 @@
         <option value="$PROJECT_DIR$/src/iluo/mergeKLists_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/nextPermutation_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/longestValidParentheses/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution1.java" />
       </list>
     </option>
   </component>
@@ -123,6 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,18 +165,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iluo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iluo" type="462c0819:PsiDirectoryNode" />
+              <item name="longestValidParentheses_star" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556954956244" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557024125302" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -309,12 +338,12 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.longestValidParentheses.Solution" />
+      <option name="MAIN_CLASS_NAME" value="iluo.longestValidParentheses_star.Solution" />
       <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.longestValidParentheses.*" />
+          <option name="PATTERN" value="iluo.longestValidParentheses_star.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -593,13 +622,7 @@
       <workItem from="1556798193594" duration="663000" />
       <workItem from="1556856569131" duration="1671000" />
       <workItem from="1556935981064" duration="3579000" />
-    </task>
-    <task id="LOCAL-00025" summary="hammingDistance">
-      <created>1551327327663</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1551327327663</updated>
+      <workItem from="1557022043218" duration="1707000" />
     </task>
     <task id="LOCAL-00026" summary="reverse">
       <created>1551407717379</created>
@@ -937,16 +960,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556858566601</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="longestValidParentheses">
+      <created>1557022071471</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1557022071471</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208920000" />
+    <option name="totallyTimeSpent" value="210627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29584488" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.299723" />
       <window_info id="Structure" order="1" weight="0.2498615" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -991,7 +1022,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="diameterOfBinaryTree" />
     <MESSAGE value="leafSimilar" />
     <MESSAGE value="sortedListToBST" />
     <MESSAGE value="wordBreak_star" />
@@ -1016,7 +1046,8 @@
     <MESSAGE value="MinStack" />
     <MESSAGE value="mergeKLists" />
     <MESSAGE value="nextPermutation" />
-    <option name="LAST_COMMIT_MESSAGE" value="nextPermutation" />
+    <MESSAGE value="longestValidParentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="longestValidParentheses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1035,13 +1066,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iluo/containsNearbyAlmostDuplicate_star/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="56" selection-start-line="56" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/MyQueue/MyQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/isUgly/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/iluo/shortestCompletingWord/Solution.java" />
@@ -1353,16 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/generateParenthesis_star/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/maxDepth/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1398,10 +1412,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/longestValidParentheses/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/iluo/generateParenthesis_star/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
         </state>
       </provider>
     </entry>
