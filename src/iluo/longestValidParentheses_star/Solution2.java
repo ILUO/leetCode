@@ -20,3 +20,4 @@ public class Solution2 {
         solution2.longestValidParentheses("()()())()");
     }
 }
+

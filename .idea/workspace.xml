@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="longestValidParentheses_1">
-      <change afterPath="$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution2.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="longestValidParentheses_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution2.java" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -143,13 +143,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iluo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iluo" type="462c0819:PsiDirectoryNode" />
-              <item name="longestValidParentheses_star" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -159,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557109186471" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557303014032" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -601,14 +594,7 @@
       <workItem from="1556856569131" duration="1671000" />
       <workItem from="1556935981064" duration="3579000" />
       <workItem from="1557022043218" duration="3152000" />
-      <workItem from="1557108330439" duration="851000" />
-    </task>
-    <task id="LOCAL-00027" summary="fib">
-      <created>1551492242734</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1551492242734</updated>
+      <workItem from="1557108330439" duration="2102000" />
     </task>
     <task id="LOCAL-00028" summary="accountsMerge">
       <created>1551611219134</created>
@@ -946,15 +932,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557024133860</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="longestValidParentheses_2">
+      <created>1557109193522</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1557109193523</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212923000" />
+    <option name="totallyTimeSpent" value="214174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30360112" />
       <window_info id="Structure" order="1" weight="0.2498615" />
@@ -966,7 +958,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36432433" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.50378376" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.16864865" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1001,7 +993,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sortedListToBST" />
     <MESSAGE value="wordBreak_star" />
     <MESSAGE value="middleNode" />
     <MESSAGE value="convertToBase7" />
@@ -1026,7 +1017,8 @@
     <MESSAGE value="nextPermutation" />
     <MESSAGE value="longestValidParentheses" />
     <MESSAGE value="longestValidParentheses_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="longestValidParentheses_1" />
+    <MESSAGE value="longestValidParentheses_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="longestValidParentheses_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1417,7 +1409,7 @@
     <entry file="file://$PROJECT_DIR$/src/iluo/longestValidParentheses_star/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
         </state>
       </provider>
     </entry>
