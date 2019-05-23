@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="groupAnagrams">
-      <change afterPath="$PROJECT_DIR$/src/iluo/canJump/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="canJump">
+      <change afterPath="$PROJECT_DIR$/src/iluo/merge_star/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iluo/canJump_star/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/canJump_star/Solution.java" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +30,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/canJump/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/merge_star/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-135">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iluo/eraseOverlapIntervals/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -59,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iluo/maxProfit_star/Solution1.java" />
-        <option value="$PROJECT_DIR$/src/iluo/prisonAfterNDays/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/multiply_star/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/diameterOfBinaryTree/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/leafSimilar/Solution.java" />
@@ -110,6 +118,8 @@
         <option value="$PROJECT_DIR$/src/iluo/rotate/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/groupAnagrams/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/canJump/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/canJump_star/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/merge_star/Solution.java" />
       </list>
     </option>
   </component>
@@ -124,6 +134,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,14 +158,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558514570684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558623365877" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -172,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -323,13 +333,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.longestValidParentheses_star.Solution2" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.merge_star.Solution" />
       <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.longestValidParentheses_star.*" />
+          <option name="PATTERN" value="iluo.merge_star.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -516,19 +526,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution2" />
       </list>
     </recent_temporary>
   </component>
@@ -620,13 +630,8 @@
       <workItem from="1558184717815" duration="1403000" />
       <workItem from="1558440505571" duration="845000" />
       <workItem from="1558498510984" duration="25000" />
-    </task>
-    <task id="LOCAL-00034" summary="isUgly">
-      <created>1552355201948</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1552355201948</updated>
+      <workItem from="1558514475125" duration="133000" />
+      <workItem from="1558615952631" duration="2939000" />
     </task>
     <task id="LOCAL-00035" summary="shortestCompletingWord">
       <created>1552451003937</created>
@@ -964,16 +969,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557848831599</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="canJump">
+      <created>1558514581893</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1558514581894</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237416000" />
+    <option name="totallyTimeSpent" value="240488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20387812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20831025" />
       <window_info id="Structure" order="1" weight="0.2498615" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -983,7 +996,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36432433" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23675676" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22594595" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1018,7 +1031,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="longestPalindrome_O(n)" />
     <MESSAGE value="longestPalindrome_center" />
     <MESSAGE value="hasCycle" />
     <MESSAGE value="detectCycle" />
@@ -1043,7 +1055,8 @@
     <MESSAGE value="trap" />
     <MESSAGE value="rotate" />
     <MESSAGE value="groupAnagrams" />
-    <option name="LAST_COMMIT_MESSAGE" value="groupAnagrams" />
+    <MESSAGE value="canJump" />
+    <option name="LAST_COMMIT_MESSAGE" value="canJump" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1062,20 +1075,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iluo/multiply_star/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/diameterOfBinaryTree/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/leafSimilar/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1455,10 +1454,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/canJump/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/iluo/canJump_star/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/eraseOverlapIntervals/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/merge_star/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
