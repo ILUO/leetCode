@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="canJump">
-      <change afterPath="$PROJECT_DIR$/src/iluo/merge_star/Solution.java" afterDir="false" />
+    <list default="true" id="cb366a63-fc46-4c80-8bae-38c4091d9edb" name="Default" comment="merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/canJump_star/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/canJump_star/Solution.java" afterDir="false" />
     </list>
     <ignored path="leetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,26 +26,7 @@
     <favorites_list name="leetCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/merge_star/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iluo/eraseOverlapIntervals/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,8 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,12 +135,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558623365877" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558774390077" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -526,6 +505,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (1)" />
@@ -631,14 +611,9 @@
       <workItem from="1558440505571" duration="845000" />
       <workItem from="1558498510984" duration="25000" />
       <workItem from="1558514475125" duration="133000" />
-      <workItem from="1558615952631" duration="2939000" />
-    </task>
-    <task id="LOCAL-00035" summary="shortestCompletingWord">
-      <created>1552451003937</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1552451003938</updated>
+      <workItem from="1558615952631" duration="3245000" />
+      <workItem from="1558666364860" duration="110000" />
+      <workItem from="1558666648805" duration="19000" />
     </task>
     <task id="LOCAL-00036" summary="sortList1">
       <created>1552905380968</created>
@@ -976,17 +951,23 @@
       <option name="project" value="LOCAL" />
       <updated>1558514581894</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="merge">
+      <created>1558623374130</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1558623374131</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240488000" />
+    <option name="totallyTimeSpent" value="240923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20831025" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2132964" />
       <window_info id="Structure" order="1" weight="0.2498615" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -996,7 +977,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36432433" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22594595" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.00972973" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1031,7 +1012,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="longestPalindrome_center" />
     <MESSAGE value="hasCycle" />
     <MESSAGE value="detectCycle" />
     <MESSAGE value="moveZeros" />
@@ -1056,7 +1036,8 @@
     <MESSAGE value="rotate" />
     <MESSAGE value="groupAnagrams" />
     <MESSAGE value="canJump" />
-    <option name="LAST_COMMIT_MESSAGE" value="canJump" />
+    <MESSAGE value="merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1461,17 +1442,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/eraseOverlapIntervals/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/iluo/merge_star/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="952">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/merge_star/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/iluo/eraseOverlapIntervals/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
